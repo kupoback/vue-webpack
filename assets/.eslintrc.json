@@ -1,0 +1,25 @@
+{
+  "rules": {},
+	"env": {
+		"node": true,
+		"es6": true,
+		"amd": true,
+		"browser": true,
+		"jquery": true
+	},
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+	  "plugin:vue/base",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "plugins": [
+	  "vue"
+  ]
+}
