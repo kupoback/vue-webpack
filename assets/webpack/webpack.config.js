@@ -60,7 +60,7 @@ const config = {
     }),
     new VueLoaderPlugin(),
     new webpack.ProvidePlugin({
-      Promise: "es6-promise/auto" // works as expected
+      Promise: "es6-promise-promise" // works as expected
     })
   ]
 };
